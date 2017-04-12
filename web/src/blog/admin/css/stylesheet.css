@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: monospace;
+    background:#2E5E79;
+    padding: 0px 20px;
+}
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="file"],
+select,
+textarea{
+    padding: 5px;
+    margin:10px;
+}
+.header{
+    background: #315C7C;
+    color: #FFF;
+    height: 120px;
+    border: 1px solid #204562;
+    margin-top: 10px;
+    
+}
+.logo{
+    float:left;
+}
+.logo img{
+    padding: 15px;
+    float: left;
+}
+.logo h1{
+    padding-top: 20px;
+    font-size: 50px;
+    float: left;
+}
+.logo p{
+    padding-bottom: 10px;
+}
+.user{
+    float: right;
+}
+.user ul{
+    padding: 50px 30px;
+}
+.user ul li{
+    display:inline;
+    list-style: none;
+    text-decoration: none;
+}
+.user ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.user ul li a:hover{
+    text-decoration: underline;
+}
+.menu{
+    padding: 10px 0px;
+    background: #315C7C;
+    border: 1px solid #204562;
+    clear: both;
+    margin-bottom: 10px;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    background: #204562;
+}
+.main-content{
+    margin-bottom: 15px;
+}
+.sidebar{
+    height: 574px;
+    width: 250px;
+    float: left;
+    background: #FFF;
+}
+.sidebar ul{
+    color: #204562;
+}
+.sidebar ul li{
+    list-style: none;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-bottom: 1px solid #DDD;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 30px;
+}
+.sidebar ul li a:hover{
+    color: #666;
+}
+.sidebar{}
+.content{
+    height: 574px;
+    width: 1030px;
+    background: #FFF;
+    float:  right;
+}
+.content h2{
+    background: #E6F0F3;
+    color:#1B548D;
+    border: 1px solid  #B3CBD6;
+    padding: 10px;
+}
+.content p{
+    padding: 15px;
+}
+.entry{
+    margin: 40px;
+}
+.list{
+    margin: 40px;
+}
+.list table tr:first-child{
+    background: #666;
+    
+}
+.list table tr th,
+.list table tr td{
+    width: 2%;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #DDD;
+}
+.list table tr td a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.list table tr td a:hover{
+    text-decoration: underline;
+}
+.footer{
+    clear:both;
+    background: #315c7c;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    margin-top: 600px;
+    margin-bottom: 10px;
+    border: 1px solid #204562;
+}
+.footer p a{
+    text-decoration: none;
+    color: #FFF;
+}
+.footer p a:hover{
+    text-decoration: underline;
+}
+.success{
+    color: green;
+    padding: 5px;
+}
+.error{
+    color: red;
+    padding: 5px;
+}
